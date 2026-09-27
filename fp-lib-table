@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "easyECADDownloader") (type "KiCad") (uri "C:/Users/antic/Downloads/easyECADDownloader/easyECADDownloader.pretty") (options "") (descr ""))
+)

@@ -1,0 +1,23 @@
+# Temporary and autosave files
+*-bak
+*-auto.kicad_sch
+_autosave-*
+*.lck
+*.tmp
+
+# User-specific workspace settings (window placement, zoom levels)
+# Omit this line if you want workspace view state preserved between PCs
+*.kicad_prl
+
+# Output files & Gerber builds
+/fab/
+/gerbers/
+*.pdf
+*.csv
+*.xml
+*.job
+*.drc
+
+# Netlists and cache
+*.net
+*.prm
