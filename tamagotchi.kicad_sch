@@ -1670,6 +1670,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -1943,6 +2132,172 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4058,7 +4413,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7002"
+		(symbol "Transistor_FET:AO3400A"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -4079,7 +4434,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7002"
+			(property "Value" "AO3400A"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4103,7 +4458,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4115,7 +4470,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4126,7 +4481,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4148,7 +4503,7 @@
 					)
 				)
 			)
-			(symbol "2N7002_0_1"
+			(symbol "AO3400A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -4315,7 +4670,7 @@
 					)
 				)
 			)
-			(symbol "2N7002_1_1"
+			(symbol "AO3400A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -6078,6 +6433,12 @@
 		(uuid "0219b69e-14aa-4c2c-b336-7eb37afdc983")
 	)
 	(junction
+		(at 39.37 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "176d794c-f528-4b91-917d-6df667d7f267")
+	)
+	(junction
 		(at 72.39 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6114,7 +6475,7 @@
 		(uuid "3bdb673b-d92b-4dbc-b411-f41fe513574f")
 	)
 	(junction
-		(at 53.34 91.44)
+		(at 45.72 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3da666f2-6551-4ba2-8181-a898f446b712")
@@ -6124,6 +6485,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "478a2e3b-225f-4f91-95f8-73b402ac0d1b")
+	)
+	(junction
+		(at 77.47 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b604977-eeac-4b81-80b9-1f412a02ffb0")
 	)
 	(junction
 		(at 241.3 139.7)
@@ -6144,10 +6511,10 @@
 		(uuid "5795f8d8-48a5-4e34-aeff-f24fc04f6e85")
 	)
 	(junction
-		(at 59.69 78.74)
+		(at 163.83 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59639ba1-5917-4daf-b8a6-80bf2262e85f")
+		(uuid "649b51bc-44e9-4f8e-9428-5049f16f3b6b")
 	)
 	(junction
 		(at 59.69 29.21)
@@ -6156,10 +6523,28 @@
 		(uuid "67d138fc-ee09-4cea-bf99-0c9b55e32cab")
 	)
 	(junction
+		(at 64.77 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e72f45a-000e-4b88-9b7e-744f8d6988d2")
+	)
+	(junction
 		(at 73.66 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f843ac4-01ed-49ed-b085-9b7e89bc07bb")
+	)
+	(junction
+		(at 52.07 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fad3d0c-6993-409c-894c-1bf181b2e890")
+	)
+	(junction
+		(at 139.7 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71b0b1f3-f800-4df6-9d07-c93d703dc16b")
 	)
 	(junction
 		(at 90.17 29.21)
@@ -6168,10 +6553,28 @@
 		(uuid "71c5f2ec-d49c-4b79-ac18-750caae45e92")
 	)
 	(junction
+		(at 143.51 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "723bdebf-e133-43e3-9c04-707eb2d24dd2")
+	)
+	(junction
 		(at 232.41 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77be3604-1c09-4bd5-a761-f4061e238572")
+	)
+	(junction
+		(at 19.05 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78e40527-4342-44bc-a5e2-aad5487c84db")
+	)
+	(junction
+		(at 60.96 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d9ed8c8-f678-43c3-9dbf-8d018e262449")
 	)
 	(junction
 		(at 139.7 175.26)
@@ -6184,12 +6587,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95995689-4fc4-4ad3-9178-365e0867ae70")
-	)
-	(junction
-		(at 63.5 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "978d7b62-9b2f-47d8-b143-2399578b05b5")
 	)
 	(junction
 		(at 31.75 147.32)
@@ -6222,6 +6619,12 @@
 		(uuid "a0ee0a41-3017-4c99-9336-b30aebdddc40")
 	)
 	(junction
+		(at 69.85 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0fe30f6-2c8f-435d-ba40-8b2d68f2b016")
+	)
+	(junction
 		(at 241.3 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6232,6 +6635,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8009865-7ac3-4f06-958b-9c2b2e759b8f")
+	)
+	(junction
+		(at 81.28 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac72cf68-3782-409a-ac86-a340dc521c31")
 	)
 	(junction
 		(at 60.96 113.03)
@@ -6286,6 +6695,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb56d925-5e16-4e9b-b7f6-9fea425ab842")
+	)
+	(junction
+		(at 64.77 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd039a21-753c-4d4d-91f1-4c6e4fcfc557")
 	)
 	(junction
 		(at 85.09 156.21)
@@ -6365,12 +6780,6 @@
 		(color 0 0 0 0)
 		(uuid "f7b0790f-f815-4ec9-9765-da60c8cf2a3b")
 	)
-	(junction
-		(at 46.99 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe1196f8-2daf-4dd5-bb86-9e97e5f7abf4")
-	)
 	(no_connect
 		(at 77.47 109.22)
 		(uuid "05503b8b-415e-4cc2-b63d-5c49244e115f")
@@ -6382,10 +6791,6 @@
 	(no_connect
 		(at 77.47 104.14)
 		(uuid "14811b16-30cb-49ee-ac84-5e54225afba8")
-	)
-	(no_connect
-		(at 77.47 76.2)
-		(uuid "14caa2d1-d6e9-4594-a341-0b14bc22536b")
 	)
 	(no_connect
 		(at 77.47 114.3)
@@ -6412,6 +6817,10 @@
 		(uuid "3c616a50-3b20-439d-8878-4376c205727c")
 	)
 	(no_connect
+		(at 77.47 121.92)
+		(uuid "504cc4a9-e6bb-49ff-847b-57c6916fcab3")
+	)
+	(no_connect
 		(at 77.47 91.44)
 		(uuid "5ef9d841-b263-4a59-b901-16bbf40fce65")
 	)
@@ -6428,28 +6837,12 @@
 		(uuid "6ce1f303-853a-470d-b3d3-10fb47155c9d")
 	)
 	(no_connect
-		(at 113.03 93.98)
-		(uuid "6f570614-4f1e-451c-bf68-90a83f26f80e")
-	)
-	(no_connect
 		(at 77.47 96.52)
 		(uuid "921c9fec-5e72-4f4d-988b-61a4043ca91c")
 	)
 	(no_connect
 		(at 77.47 93.98)
 		(uuid "98f5f0f8-b78b-4ae5-bdc4-223d0738d68f")
-	)
-	(no_connect
-		(at 77.47 78.74)
-		(uuid "d5eb7aea-c2f7-4cbe-b9cb-b7f87906e80f")
-	)
-	(no_connect
-		(at 113.03 63.5)
-		(uuid "e091d046-662c-4911-8ea8-8c625578db76")
-	)
-	(no_connect
-		(at 113.03 71.12)
-		(uuid "ec6c2dd7-cf11-4500-b9a3-52b97d0810d9")
 	)
 	(wire
 		(pts
@@ -6473,13 +6866,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 147.32) (xy 72.39 147.32)
+			(xy 69.85 88.9) (xy 77.47 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0265f82a-6baa-4e72-ae4b-be17bb1d1829")
+		(uuid "026ba39b-68a6-4139-bde8-e5bd53a0d30b")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0273e4a1-18da-46a7-9083-8fc1cf479352")
 	)
 	(wire
 		(pts
@@ -6500,16 +6903,6 @@
 			(type default)
 		)
 		(uuid "030fd252-e949-4f7e-8af9-dc8d855a3b48")
-	)
-	(wire
-		(pts
-			(xy 177.8 127) (xy 186.69 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b87f2d-4578-4908-8069-52e0fa92b473")
 	)
 	(wire
 		(pts
@@ -6560,6 +6953,16 @@
 			(type default)
 		)
 		(uuid "0a0e6035-bdc2-49fd-9675-70847e2a77a4")
+	)
+	(wire
+		(pts
+			(xy 64.77 97.79) (xy 64.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a256f88-696a-4e8d-b485-4a353e76081d")
 	)
 	(wire
 		(pts
@@ -6633,6 +7036,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 78.74) (xy 74.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f125984-27a5-4693-b1b7-8740135d1c08")
+	)
+	(wire
+		(pts
 			(xy 22.86 147.32) (xy 31.75 147.32)
 		)
 		(stroke
@@ -6650,6 +7063,16 @@
 			(type default)
 		)
 		(uuid "10ab0845-0e4d-4eab-9d6f-8221b02558fc")
+	)
+	(wire
+		(pts
+			(xy 74.93 73.66) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cbaf93-9b15-4570-aeb4-3977b48cac3d")
 	)
 	(wire
 		(pts
@@ -6683,6 +7106,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 78.74) (xy 74.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1313962c-3cd4-481e-86fb-b9896509a2d0")
+	)
+	(wire
+		(pts
+			(xy 139.7 90.17) (xy 143.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a18545-f5db-4f38-b326-9d592ba6e5e5")
+	)
+	(wire
+		(pts
 			(xy 241.3 110.49) (xy 223.52 110.49)
 		)
 		(stroke
@@ -6713,23 +7156,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 147.32) (xy 63.5 147.32)
+			(xy 49.53 147.32) (xy 72.39 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "16f7cfb8-754e-4c27-b236-cb337a1661b0")
-	)
-	(wire
-		(pts
-			(xy 177.8 138.43) (xy 177.8 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17ffaf2b-e81c-4e9a-8f2b-b9e7da175a15")
 	)
 	(wire
 		(pts
@@ -6743,13 +7176,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 60.96) (xy 44.45 68.58)
+			(xy 113.03 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a771741-7550-453b-8dfd-edaac40af8d2")
+		(uuid "194affa6-5719-47a1-b9dc-50f3f222f767")
 	)
 	(wire
 		(pts
@@ -6813,7 +7246,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 100.33) (xy 124.46 88.9)
+			(xy 124.46 113.03) (xy 124.46 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6843,6 +7276,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 63.5) (xy 128.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228d8898-27ac-4dc0-a232-ff45b0e35d20")
+	)
+	(wire
+		(pts
 			(xy 95.25 132.08) (xy 97.79 132.08)
 		)
 		(stroke
@@ -6853,7 +7296,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 133.35 97.79)
+			(xy 81.28 175.26) (xy 93.98 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c9fafd-eaa4-4961-97f7-83a315cca5a2")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 133.35 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6890,6 +7343,16 @@
 			(type default)
 		)
 		(uuid "283b8508-a1ea-4a0f-92f7-dc20dbbfbcca")
+	)
+	(wire
+		(pts
+			(xy 119.38 63.5) (xy 113.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28642f30-7340-4725-8361-6de562630d00")
 	)
 	(wire
 		(pts
@@ -7013,16 +7476,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 60.96) (xy 60.96 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "334d31ff-771d-498e-82c9-6e928c2b4164")
-	)
-	(wire
-		(pts
 			(xy 97.79 132.08) (xy 97.79 129.54)
 		)
 		(stroke
@@ -7033,6 +7486,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 97.79) (xy 60.96 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3465237f-9cba-4786-a954-5f5cf5e04cf8")
+	)
+	(wire
+		(pts
 			(xy 201.93 127) (xy 186.69 127)
 		)
 		(stroke
@@ -7040,6 +7503,26 @@
 			(type default)
 		)
 		(uuid "35e030dd-a385-4130-9a75-777d680fe826")
+	)
+	(wire
+		(pts
+			(xy 52.07 72.39) (xy 52.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f9f031-e05f-4503-a4ab-433adb4c265d")
+	)
+	(wire
+		(pts
+			(xy 31.75 60.96) (xy 31.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b737e5-34ad-41ea-82b9-db3c9e27cc3a")
 	)
 	(wire
 		(pts
@@ -7063,7 +7546,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 68.58) (xy 59.69 78.74)
+			(xy 52.07 68.58) (xy 52.07 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7163,23 +7646,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 68.58) (xy 113.03 68.58)
+			(xy 116.84 68.58) (xy 113.03 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "461a4ac9-0765-403e-b7f1-b6e6ab3b6d0f")
-	)
-	(wire
-		(pts
-			(xy 146.05 72.39) (xy 146.05 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "463bbaa5-997f-4086-98ea-b1ec5aa6e78e")
 	)
 	(wire
 		(pts
@@ -7200,6 +7673,16 @@
 			(type default)
 		)
 		(uuid "47fbe9b0-c0f6-4590-8dc3-cd7322108dae")
+	)
+	(wire
+		(pts
+			(xy 77.47 175.26) (xy 81.28 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48056bb7-f766-4c16-a83c-d5cf1380fac5")
 	)
 	(wire
 		(pts
@@ -7273,7 +7756,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 121.92 102.87)
+			(xy 57.15 73.66) (xy 57.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cae3b22-8c30-48e2-864e-95ba8b06d04a")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 121.92 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7313,7 +7806,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 81.28) (xy 113.03 81.28)
+			(xy 116.84 81.28) (xy 113.03 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7343,7 +7836,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 83.82) (xy 53.34 96.52)
+			(xy 45.72 77.47) (xy 45.72 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7423,16 +7916,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 161.29) (xy 63.5 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5926edc3-efbd-49bc-b67c-017eda50dc7b")
-	)
-	(wire
-		(pts
 			(xy 67.31 190.5) (xy 67.31 189.23)
 		)
 		(stroke
@@ -7443,16 +7926,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 80.01) (xy 146.05 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a1b584a-f5dd-4521-8112-d9a9833f29a7")
-	)
-	(wire
-		(pts
 			(xy 143.51 83.82) (xy 143.51 82.55)
 		)
 		(stroke
@@ -7460,6 +7933,16 @@
 			(type default)
 		)
 		(uuid "5ab4db29-dfa7-4bf5-a80a-5ee9e115b121")
+	)
+	(wire
+		(pts
+			(xy 19.05 53.34) (xy 19.05 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae453f0-968b-4b50-a6a3-eeaee71be420")
 	)
 	(wire
 		(pts
@@ -7493,16 +7976,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 151.13) (xy 63.5 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dd05d39-cb3f-4174-826d-096c388ff0af")
-	)
-	(wire
-		(pts
 			(xy 86.36 156.21) (xy 85.09 156.21)
 		)
 		(stroke
@@ -7520,6 +7993,16 @@
 			(type default)
 		)
 		(uuid "602c89b6-1310-475e-8e49-aa75b90ecc0c")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622c9b13-c368-4c69-bd70-38ef79b759e5")
 	)
 	(wire
 		(pts
@@ -7553,7 +8036,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 175.26) (xy 93.98 175.26)
+			(xy 73.66 175.26) (xy 77.47 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7643,7 +8126,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 113.03 73.66)
+			(xy 116.84 73.66) (xy 113.03 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7653,7 +8136,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 71.12) (xy 27.94 73.66)
+			(xy 19.05 88.9) (xy 19.05 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7683,7 +8166,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 102.87) (xy 133.35 102.87)
+			(xy 121.92 115.57) (xy 133.35 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7713,7 +8196,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 160.02) (xy 31.75 162.56)
+			(xy 69.85 107.95) (xy 69.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f096148-0075-4611-a396-9f5659444a30")
+	)
+	(wire
+		(pts
+			(xy 31.75 160.02) (xy 31.75 163.83)
 		)
 		(stroke
 			(width 0)
@@ -7733,7 +8226,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 66.04) (xy 46.99 78.74)
+			(xy 39.37 66.04) (xy 39.37 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7763,7 +8256,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 113.03 76.2)
+			(xy 116.84 76.2) (xy 113.03 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7783,7 +8276,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 91.44) (xy 59.69 88.9)
+			(xy 52.07 91.44) (xy 52.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7793,7 +8286,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 175.26) (xy 31.75 170.18)
+			(xy 31.75 175.26) (xy 31.75 171.45)
 		)
 		(stroke
 			(width 0)
@@ -7820,16 +8313,6 @@
 			(type default)
 		)
 		(uuid "758b2c09-954e-4080-ab20-0734d53a32c2")
-	)
-	(wire
-		(pts
-			(xy 186.69 138.43) (xy 177.8 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "766cacd9-91f8-4c2f-8306-2d163bcff39d")
 	)
 	(wire
 		(pts
@@ -7860,6 +8343,16 @@
 			(type default)
 		)
 		(uuid "7ae4cb5a-9341-4e32-8735-4c62ceef0b34")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 157.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0e94bd-7483-4a70-ab9f-df25d6d42ed6")
 	)
 	(wire
 		(pts
@@ -7923,7 +8416,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 66.04) (xy 27.94 66.04)
+			(xy 21.59 83.82) (xy 19.05 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7953,6 +8446,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 93.98) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862d77e3-220a-45b4-8db7-c5508b0c771a")
+	)
+	(wire
+		(pts
 			(xy 34.29 123.19) (xy 41.91 123.19)
 		)
 		(stroke
@@ -7960,6 +8463,16 @@
 			(type default)
 		)
 		(uuid "86687320-eff9-4ebc-a53f-61b29414f18b")
+	)
+	(wire
+		(pts
+			(xy 157.48 63.5) (xy 153.67 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879086fa-1e51-4941-bf16-4c272b698748")
 	)
 	(wire
 		(pts
@@ -8023,7 +8536,27 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 91.44) (xy 59.69 91.44)
+			(xy 19.05 83.82) (xy 19.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90116d30-9a22-4ff3-bf60-b9762f1d3928")
+	)
+	(wire
+		(pts
+			(xy 60.96 97.79) (xy 57.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9047e38e-4c1f-4b9b-9a4b-d9073f341cb9")
+	)
+	(wire
+		(pts
+			(xy 45.72 91.44) (xy 52.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8033,13 +8566,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 105.41) (xy 133.35 105.41)
+			(xy 130.81 118.11) (xy 133.35 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9253c2c3-5409-4e84-8145-f8ff443d332f")
+	)
+	(wire
+		(pts
+			(xy 139.7 77.47) (xy 139.7 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9292bcfc-6f6c-4e8f-9f2d-8127ba6722e7")
 	)
 	(wire
 		(pts
@@ -8063,7 +8606,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 78.74) (xy 57.15 78.74)
+			(xy 127 90.17) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95daa359-b96b-4d3b-a763-ee3204f7ebed")
+	)
+	(wire
+		(pts
+			(xy 52.07 72.39) (xy 49.53 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8093,13 +8646,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 78.74) (xy 59.69 81.28)
+			(xy 64.77 73.66) (xy 57.15 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "985ada40-2c7b-4fe8-8670-ec9f2789a4a0")
+		(uuid "96f89afa-b420-4724-84b7-75f03a57f200")
 	)
 	(wire
 		(pts
@@ -8133,6 +8686,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 88.9) (xy 69.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2fa1bf-0372-4895-ba00-fdd6aad1064a")
+	)
+	(wire
+		(pts
 			(xy 241.3 121.92) (xy 241.3 127)
 		)
 		(stroke
@@ -8140,6 +8703,16 @@
 			(type default)
 		)
 		(uuid "9ab9dd18-c785-47ab-b105-ad3104abc715")
+	)
+	(wire
+		(pts
+			(xy 60.96 97.79) (xy 60.96 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcf8d41-f809-4412-831e-ca6a2898f2ae")
 	)
 	(wire
 		(pts
@@ -8193,16 +8766,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 63.5) (xy 27.94 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a38428aa-9c92-4f77-a9ff-885f060f7c7b")
-	)
-	(wire
-		(pts
 			(xy 251.46 26.67) (xy 214.63 26.67)
 		)
 		(stroke
@@ -8233,7 +8796,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 124.46 100.33)
+			(xy 133.35 113.03) (xy 124.46 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8250,6 +8813,16 @@
 			(type default)
 		)
 		(uuid "a81b09a9-794b-4be4-89b7-649ad6920b58")
+	)
+	(wire
+		(pts
+			(xy 77.47 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82abb89-fbd8-4645-b5d7-13d1f184d593")
 	)
 	(wire
 		(pts
@@ -8323,7 +8896,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 110.49) (xy 130.81 105.41)
+			(xy 130.81 118.11) (xy 130.81 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8343,7 +8916,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 88.9) (xy 77.47 88.9)
+			(xy 39.37 72.39) (xy 39.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b128f816-448a-4668-9138-29f37d52586b")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 69.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8380,6 +8963,16 @@
 			(type default)
 		)
 		(uuid "b3dd21b1-0629-40f8-8648-eac4d55a70b1")
+	)
+	(wire
+		(pts
+			(xy 116.84 66.04) (xy 113.03 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c2e435-f9b7-450f-afcf-efc7b0da178d")
 	)
 	(wire
 		(pts
@@ -8423,7 +9016,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 91.44) (xy 53.34 91.44)
+			(xy 39.37 91.44) (xy 45.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8433,7 +9026,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 95.25) (xy 130.81 97.79)
+			(xy 130.81 105.41) (xy 130.81 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8450,6 +9043,16 @@
 			(type default)
 		)
 		(uuid "ba407c62-89bc-425a-bf09-577089bd2d61")
+	)
+	(wire
+		(pts
+			(xy 81.28 179.07) (xy 81.28 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb050199-fffc-496f-82c9-acf3eac118eb")
 	)
 	(wire
 		(pts
@@ -8493,17 +9096,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 78.74) (xy 46.99 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3e41f09-1c66-4a06-b241-d2c0c9cdf04e")
-	)
-	(wire
-		(pts
-			(xy 46.99 66.04) (xy 77.47 66.04)
+			(xy 39.37 66.04) (xy 77.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8523,16 +9116,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 68.58) (xy 41.91 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c83d4ba4-4d3a-4ff2-9c8c-9f8f8e198eb2")
-	)
-	(wire
-		(pts
 			(xy 113.03 41.91) (xy 113.03 39.37)
 		)
 		(stroke
@@ -8540,6 +9123,16 @@
 			(type default)
 		)
 		(uuid "c9471290-6703-450d-ac68-3a2e10013bba")
+	)
+	(wire
+		(pts
+			(xy 128.27 71.12) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca22b5b1-9943-42a7-90ae-f984d4cc71be")
 	)
 	(wire
 		(pts
@@ -8593,6 +9186,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 190.5) (xy 81.28 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11f85be-0eb1-442d-9487-4349aa7fa903")
+	)
+	(wire
+		(pts
 			(xy 129.54 175.26) (xy 139.7 175.26)
 		)
 		(stroke
@@ -8623,13 +9226,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 78.74) (xy 49.53 78.74)
+			(xy 39.37 72.39) (xy 41.91 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d3d8430f-3be4-4887-8eed-710eafe62311")
+	)
+	(wire
+		(pts
+			(xy 57.15 97.79) (xy 57.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49aa27a-a71f-4500-95a8-07222437d558")
 	)
 	(wire
 		(pts
@@ -8643,13 +9256,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 128.27) (xy 177.8 127)
+			(xy 74.93 76.2) (xy 74.93 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9baca21-66a7-4b8d-9399-9697b78b38dd")
+		(uuid "da69eb99-850d-4832-9960-58a5bfa75558")
 	)
 	(wire
 		(pts
@@ -8713,6 +9326,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 81.28) (xy 64.77 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e474acf3-1550-4eb7-8688-4fbd51bdcaa5")
+	)
+	(wire
+		(pts
 			(xy 241.3 134.62) (xy 241.3 139.7)
 		)
 		(stroke
@@ -8743,7 +9366,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 68.58) (xy 77.47 68.58)
+			(xy 52.07 68.58) (xy 77.47 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8793,7 +9416,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 91.44) (xy 46.99 88.9)
+			(xy 39.37 91.44) (xy 39.37 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8833,7 +9456,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 71.12) (xy 27.94 71.12)
+			(xy 21.59 88.9) (xy 19.05 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8893,23 +9516,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 78.74) (xy 113.03 78.74)
+			(xy 116.84 78.74) (xy 113.03 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f31e957a-1ef0-4fbb-9fc5-0f959563bb0b")
-	)
-	(wire
-		(pts
-			(xy 67.31 121.92) (xy 77.47 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a8710e-ed3a-4d42-b83a-3b061387fbfd")
 	)
 	(wire
 		(pts
@@ -8923,6 +9536,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 63.5) (xy 128.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49c4748-4a6d-4956-a021-f2535ffe3255")
+	)
+	(wire
+		(pts
 			(xy 241.3 151.13) (xy 241.3 158.75)
 		)
 		(stroke
@@ -8930,6 +9553,16 @@
 			(type default)
 		)
 		(uuid "f6a71d44-c5ae-47e3-adb7-a114f37a0267")
+	)
+	(wire
+		(pts
+			(xy 31.75 60.96) (xy 60.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8379604-d422-4f70-8563-fa81933e68b8")
 	)
 	(wire
 		(pts
@@ -8973,6 +9606,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 69.85) (xy 157.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcad1b4a-cc98-43f5-86a1-96ecbe3d2584")
+	)
+	(wire
+		(pts
+			(xy 64.77 81.28) (xy 64.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0eb447-ef33-4007-9c4d-f776ef1d6c4e")
+	)
+	(wire
+		(pts
 			(xy 246.38 34.29) (xy 246.38 43.18)
 		)
 		(stroke
@@ -9001,18 +9654,8 @@
 		)
 		(uuid "ff8b4e11-028a-496b-ad00-dce0d9bae4ee")
 	)
-	(label "REG_LDO"
-		(at 109.1662 175.26 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "060d643e-f98a-4267-82b5-290bb9239f43")
-	)
 	(label "DISP_SI"
-		(at 115.57 73.66 0)
+		(at 116.84 73.66 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9102,7 +9745,7 @@
 		(uuid "3b37f102-150d-4d69-99da-8f59720b6f7e")
 	)
 	(label "SWCLK"
-		(at 115.57 91.44 0)
+		(at 116.84 91.44 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9172,7 +9815,7 @@
 		(uuid "69ea1881-96c3-4f3e-a222-a16144f93dcd")
 	)
 	(label "USB_D-"
-		(at 115.57 83.82 0)
+		(at 116.84 83.82 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9242,7 +9885,7 @@
 		(uuid "8e950230-1d5e-4eba-a14d-5eea86006d4b")
 	)
 	(label "SWDIO"
-		(at 115.57 88.9 0)
+		(at 116.84 88.9 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9262,7 +9905,7 @@
 		(uuid "9cb77e81-3a88-4a29-b50e-fb3d158afe5f")
 	)
 	(label "LED_B"
-		(at 118.11 81.28 0)
+		(at 116.84 81.28 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9292,7 +9935,7 @@
 		(uuid "a0906be1-4c97-4bba-afe1-a8b444da6353")
 	)
 	(label "LED_R"
-		(at 118.11 76.2 0)
+		(at 116.84 76.2 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9331,16 +9974,6 @@
 		)
 		(uuid "ce3b8feb-53a7-49c6-87ab-61597ea95c85")
 	)
-	(label "BUZ"
-		(at 67.31 121.92 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3b22a54-f60d-45cd-9dc7-0738c4cb74e1")
-	)
 	(label "DISP_EXTMODE"
 		(at 251.46 41.91 0)
 		(effects
@@ -9352,7 +9985,7 @@
 		(uuid "d43e08b8-eb93-420a-ba3b-e3e8dd90b10e")
 	)
 	(label "LED_G"
-		(at 118.11 78.74 0)
+		(at 116.84 78.74 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9372,7 +10005,7 @@
 		(uuid "d6021502-c20f-4742-9b06-7e8ba6d7e991")
 	)
 	(label "DISP_EXTMODE"
-		(at 113.03 66.04 0)
+		(at 116.84 66.04 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9402,7 +10035,7 @@
 		(uuid "e1b0a930-dd25-4ccf-9c2d-3666e2dee09d")
 	)
 	(label "USB_D+"
-		(at 115.57 86.36 0)
+		(at 116.84 86.36 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9422,7 +10055,7 @@
 		(uuid "e534dcaa-53d9-47d7-851e-35ed57fd26d2")
 	)
 	(label "DISP_SCLK"
-		(at 115.57 68.58 0)
+		(at 116.84 68.58 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9430,6 +10063,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5ef069f-9aa5-4948-af1a-50f9063c5772")
+	)
+	(label "BUZ"
+		(at 119.38 63.5 180)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea6f26ab-b14c-4e6e-9e05-663ee4177f5c")
 	)
 	(label "BUT2_SW"
 		(at 255.27 110.49 0)
@@ -9473,7 +10116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "042ff716-8645-4841-915d-d96549e3ce01")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR047"
 			(at 85.09 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9534,7 +10177,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR016")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9552,7 +10195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "056ca973-e837-4e8a-b97d-1ebb6df39f75")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR013"
 			(at 134.62 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9613,7 +10256,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR025")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9630,7 +10273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0806393a-d20a-4f66-855f-f4ec7d8d191b")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 251.968 130.556 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9738,15 +10381,15 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDDA")
-		(at 260.35 104.14 0)
+		(lib_id "Switch:SW_SPDT")
+		(at 26.67 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9754,11 +10397,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ac9421a-50ca-415f-bec7-a6837c1885f7")
-		(property "Reference" "#PWR043"
-			(at 260.35 107.95 0)
-			(hide yes)
+		(uuid "08af64a9-aca7-42c0-befe-5a2b232048dd")
+		(property "Reference" "SW1"
+			(at 26.67 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9767,8 +10408,8 @@
 				)
 			)
 		)
-		(property "Value" "VDDA"
-			(at 260.35 99.06 0)
+		(property "Value" "SSAJ110100"
+			(at 26.67 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9777,8 +10418,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 260.35 104.14 0)
+		(property "Footprint" "easyECADDownloader:SW-SMD_SSAJ110100"
+			(at 26.67 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9789,7 +10430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 104.14 0)
+			(at 26.67 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9799,8 +10440,19 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 260.35 104.14 0)
+		(property "Description" "Switch, single pole double throw"
+			(at 26.67 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C160863"
+			(at 26.67 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9811,12 +10463,97 @@
 			)
 		)
 		(pin "1"
-			(uuid "fdd887cc-3a47-4017-8976-ddfda50fb04a")
+			(uuid "e68e36c7-e4fa-41f3-acd7-3f7dd41ac4e2")
+		)
+		(pin "3"
+			(uuid "00c22345-40c8-41f7-845e-558999a18dde")
+		)
+		(pin "2"
+			(uuid "781a1077-43fc-4097-947c-41700836fa83")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR043")
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b0cb342-7797-4114-8546-e7321940f624")
+		(property "Reference" "#PWR022"
+			(at 139.7 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1696af90-153f-4958-a9e1-57f1e7382c99")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9833,7 +10570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b327cd8-9c9f-4a6a-a135-6167c4e169a6")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 83.058 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9941,15 +10678,15 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 146.05 67.31 0)
+		(lib_id "Device:R")
+		(at 69.85 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9957,31 +10694,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d1f3eef-2d25-420a-b53a-2829899baf32")
-		(property "Reference" "#PWR049"
-			(at 146.05 71.12 0)
-			(hide yes)
+		(uuid "0b7bd452-cafc-4283-94c8-656b3f8c2439")
+		(property "Reference" "R9"
+			(at 71.374 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "VDD"
-			(at 146.05 62.23 0)
+		(property "Value" "100k"
+			(at 71.374 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.05 67.31 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 68.072 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9992,7 +10729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 67.31 0)
+			(at 69.85 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10002,8 +10739,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 146.05 67.31 0)
+		(property "Description" "Resistor"
+			(at 69.85 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10012,14 +10749,28 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 69.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fe0bfa71-a5ad-4cec-a620-c63e6150f690")
 		)
 		(pin "1"
-			(uuid "6f1758ee-7fdb-42ca-abba-576c19376ca6")
+			(uuid "02195e3f-c8d2-4b2a-99c1-4814df941dde")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR049")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10037,7 +10788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12580f5a-e7ff-45df-a9fe-54e1e8076295")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR043"
 			(at 115.57 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10098,7 +10849,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR048")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10115,7 +10866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1422f598-b8c8-411b-96a3-0497fed92f92")
-		(property "Reference" "C13"
+		(property "Reference" "C8"
 			(at 135.128 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10223,7 +10974,99 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C13")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "167f5812-d890-43f3-a0ce-6dcef1f83090")
+		(property "Reference" "R3"
+			(at 141.478 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 141.732 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.922 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3772d03e-f1c7-44a3-a2de-a948561d68c9")
+		)
+		(pin "2"
+			(uuid "992c999b-8dbf-40e4-8748-fb9f4c24692f")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10241,7 +11084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "170f5d31-2aab-4f28-b22b-924a128d8de7")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR02"
 			(at 113.03 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10301,7 +11144,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR019")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10318,7 +11161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19d9de0f-e274-43df-81af-df7d949c7efe")
-		(property "Reference" "R16"
+		(property "Reference" "R11"
 			(at 253.746 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10424,7 +11267,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R16")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10441,7 +11284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ac437ae-d6a9-4b0c-a70c-98a911694e0d")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 47.244 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10560,7 +11403,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10577,7 +11420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d1d03cf-b454-4598-b23c-e2ab38708439")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR019"
 			(at 163.83 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10637,7 +11480,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR029")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10654,7 +11497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f523492-3367-465c-91c1-fd1ae6f5b428")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 113.538 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10762,7 +11605,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10780,7 +11623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f74cc3d-2547-46f4-a533-8c1db481271b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 52.07 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10841,7 +11684,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10858,7 +11701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fd1ad96-7836-4bcb-a7ae-5da734352d07")
-		(property "Reference" "R15"
+		(property "Reference" "R10"
 			(at 251.968 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10966,7 +11809,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R15")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10984,7 +11827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fd4aaf4-bb46-449d-8f68-1ebe6d88dced")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 184.15 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11045,7 +11888,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11063,7 +11906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fe8f777-8921-4156-8665-333328b8fde3")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR044"
 			(at 173.99 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11124,7 +11967,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR031")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11141,7 +11984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "218a21fb-5396-476e-b81e-73396afdb2ea")
-		(property "Reference" "D2"
+		(property "Reference" "D6"
 			(at 19.812 164.592 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11260,7 +12103,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "D2")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11277,7 +12120,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2242834f-91b2-4803-befa-dfcbf538eb43")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 47.244 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11396,7 +12239,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11413,7 +12256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23a02fbc-71b9-47c5-acc0-b6c36acb8034")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 69.342 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11519,7 +12362,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11537,7 +12380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "259f9d0e-cfa7-45cd-a178-69ab56628244")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11597,7 +12440,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11693,7 +12536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "271924d5-78e3-4a7f-a4af-c7286ecb72a4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR020"
 			(at 19.05 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11754,7 +12597,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR01")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11762,7 +12605,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 85.09 0)
+		(at 52.07 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11771,8 +12614,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "276f104a-2769-4fa8-b45f-dbdf74ae1d38")
-		(property "Reference" "C5"
-			(at 62.23 83.82 0)
+		(property "Reference" "C14"
+			(at 52.324 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11783,7 +12626,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 62.23 86.36 0)
+			(at 52.324 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11794,7 +12637,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 60.6552 88.9 0)
+			(at 53.0352 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +12648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 85.09 0)
+			(at 52.07 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11816,7 +12659,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 59.69 85.09 0)
+			(at 52.07 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11827,7 +12670,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 59.69 85.09 0)
+			(at 52.07 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11838,7 +12681,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 59.69 85.09 0)
+			(at 52.07 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11849,7 +12692,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 59.69 85.09 0)
+			(at 52.07 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11860,7 +12703,7 @@
 			)
 		)
 		(property "LCSC Part" "C32949"
-			(at 59.69 85.09 0)
+			(at 52.07 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11879,84 +12722,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 264.16 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2882b680-ae00-4fb2-b502-49f3be0d1ff4")
-		(property "Reference" "#PWR042"
-			(at 264.16 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 264.16 69.596 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 264.16 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 264.16 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "165e3431-aa5e-4634-8875-399b6d64cb6e")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR042")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -11974,7 +12740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29daff3f-e0f1-49b4-a578-474d78960c7e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR015"
 			(at 217.17 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12035,7 +12801,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR035")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12053,7 +12819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bb5a94f-09c3-492c-8c1d-ae78a5f5e1e5")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR010"
 			(at 82.55 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12114,15 +12880,15 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR015")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 63.5 154.94 0)
+		(lib_id "power:GND")
+		(at 81.28 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12130,31 +12896,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2f395e7d-14bc-4b1f-824f-5f0a1ef3fd5d")
-		(property "Reference" "C6"
-			(at 64.008 153.162 0)
+		(fields_autoplaced yes)
+		(uuid "2db19307-38e5-4900-9809-ec90befd7278")
+		(property "Reference" "#PWR050"
+			(at 81.28 196.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 64.262 157.226 0)
+		(property "Value" "GND"
+			(at 81.28 195.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 64.4652 158.75 0)
+		(property "Footprint" ""
+			(at 81.28 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12165,7 +12932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 154.94 0)
+			(at 81.28 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12175,52 +12942,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 63.5 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 63.5 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 63.5 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 63.5 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C12530"
-			(at 63.5 154.94 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12231,15 +12954,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9df3825d-b72c-425e-8e48-13daf418bd3b")
-		)
-		(pin "2"
-			(uuid "b95a9082-134f-4278-b2cc-17648738e038")
+			(uuid "475f3e1e-8ef2-4634-9160-3ce9aa19cb05")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C6")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12256,7 +12976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39e30a4c-5367-4591-bb96-025f359da2d4")
-		(property "Reference" "R8"
+		(property "Reference" "R21"
 			(at 83.312 165.862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12364,7 +13084,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R8")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -12372,7 +13092,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 27.94 63.5 0)
+		(at 19.05 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12380,10 +13100,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3bf37595-04da-4e73-80df-eeb8a7641409")
-		(property "Reference" "#PWR02"
-			(at 27.94 67.31 0)
+		(property "Reference" "#PWR023"
+			(at 19.05 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12394,7 +13113,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 27.94 58.42 0)
+			(at 16.002 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12404,7 +13123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 63.5 0)
+			(at 19.05 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12415,7 +13134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 63.5 0)
+			(at 19.05 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12426,7 +13145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 27.94 63.5 0)
+			(at 19.05 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12442,7 +13161,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR02")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12460,7 +13179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3de580e4-5367-476a-a0c4-ec0ed26a36c1")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR05"
 			(at 271.78 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12520,7 +13239,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR046")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12538,7 +13257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f4eaad1-52db-43b8-a7e2-f5cb324cf5e3")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR04"
 			(at 265.43 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12598,7 +13317,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR045")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12615,7 +13334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4161cabe-efc1-4bc7-ab98-2d43fb67e97b")
-		(property "Reference" "C15"
+		(property "Reference" "C9"
 			(at 224.028 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12723,7 +13442,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C15")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -12740,7 +13459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "471499f9-9fda-4396-84c9-d5654e77fd83")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 105.918 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12848,7 +13567,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12865,7 +13584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bd6f759-8363-465d-83c7-94836e35402b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR049"
 			(at 73.66 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12925,7 +13644,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR013")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -12943,7 +13662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cefdc40-292b-48be-9d57-093b74d06422")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR037"
 			(at 267.97 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -13004,7 +13723,121 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR047")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4dc3a1d5-d5bb-479e-b384-73103a826cd7")
+		(property "Reference" "C17"
+			(at 65.278 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.6p"
+			(at 65.278 94.996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 65.7352 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 64.77 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 64.77 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C30274"
+			(at 64.77 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c5ff124-b041-480e-9ff2-8a3991d1c9c8")
+		)
+		(pin "2"
+			(uuid "beca976b-6215-4705-a30a-11303fec56df")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13022,7 +13855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e4c8900-c34f-4983-81ac-cff8f270ea8a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR032"
 			(at 146.05 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13083,7 +13916,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR027")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13100,7 +13933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ef65dce-65ff-469c-9609-c132d7acf577")
-		(property "Reference" "C11"
+		(property "Reference" "C23"
 			(at 108.458 181.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13208,7 +14041,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C11")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -13226,7 +14059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51e24e94-5190-439d-8bea-fd81eff2067d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR014"
 			(at 196.85 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13287,7 +14120,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR034")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13305,7 +14138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "545137e7-4014-4b6e-afd9-a9e18c293c44")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR046"
 			(at 72.39 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -13366,15 +14199,15 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR050")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 36.83 68.58 180)
+		(lib_id "Device:Crystal")
+		(at 64.77 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13382,30 +14215,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58ecd0ca-c576-49a0-a1f2-d582116ddaf8")
-		(property "Reference" "SW1"
-			(at 36.83 59.69 0)
+		(uuid "58a9ef11-8ed2-4b60-889b-4af6b72740b0")
+		(property "Reference" "Y2"
+			(at 62.738 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 36.83 62.23 0)
+		(property "Value" "32.768kHz"
+			(at 62.738 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
-			(at 36.83 68.58 0)
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+			(at 64.77 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13416,7 +14250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 60.96 0)
+			(at 64.77 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13426,8 +14260,8 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
-			(at 36.83 68.58 0)
+		(property "Description" "Two pin crystal"
+			(at 64.77 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13437,30 +14271,8 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 36.83 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 36.83 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 36.83 68.58 0)
+		(property "LCSC Part" "C94673"
+			(at 64.77 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13471,18 +14283,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "deb3ae7f-2294-49f4-8072-4ab5697c5ce6")
+			(uuid "bbe15586-ecde-4317-b94f-bc16635da637")
 		)
 		(pin "1"
-			(uuid "3374cabf-c4ce-46cb-af6a-b1ca4b4b458d")
-		)
-		(pin "3"
-			(uuid "2f65a994-8508-442e-8ab6-45d0323cc526")
+			(uuid "478877b2-dc69-407e-87bd-bfab3b3a77f7")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "SW1")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -13619,7 +14428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "594a961c-7339-451d-b003-ff7e0055d000")
-		(property "Reference" "R10"
+		(property "Reference" "R17"
 			(at 161.798 141.478 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13725,7 +14534,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R10")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -13742,7 +14551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5955f58c-6735-4671-9ea5-8610779865e3")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR042"
 			(at 49.53 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13802,7 +14611,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR04")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13810,7 +14619,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 31.75 166.37 90)
+		(at 31.75 167.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13819,8 +14628,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a493b7b-4cd5-4dae-8f80-c79ec9fe7d0e")
-		(property "Reference" "D1"
-			(at 34.036 164.084 90)
+		(property "Reference" "D7"
+			(at 34.036 165.354 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13831,7 +14640,7 @@
 			)
 		)
 		(property "Value" "KT-0603R"
-			(at 34.036 166.116 90)
+			(at 34.036 167.386 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13842,7 +14651,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 31.75 166.37 0)
+			(at 31.75 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13853,7 +14662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 166.37 0)
+			(at 31.75 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13864,7 +14673,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 31.75 166.37 0)
+			(at 31.75 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13875,7 +14684,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 166.37 0)
+			(at 31.75 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13886,7 +14695,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 31.75 166.37 90)
+			(at 31.75 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13897,7 +14706,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 31.75 166.37 90)
+			(at 31.75 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13908,7 +14717,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 31.75 166.37 90)
+			(at 31.75 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13919,7 +14728,7 @@
 			)
 		)
 		(property "LCSC Part" "C2286"
-			(at 31.75 166.37 90)
+			(at 31.75 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13938,7 +14747,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "D1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13946,7 +14755,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 110.49 0)
+		(at 130.81 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13956,8 +14765,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c9e91d4-e2a6-4c82-b568-6d36fbc158f9")
-		(property "Reference" "#PWR023"
-			(at 130.81 116.84 0)
+		(property "Reference" "#PWR036"
+			(at 130.81 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13968,7 +14777,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 115.57 0)
+			(at 130.81 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13979,7 +14788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 110.49 0)
+			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13990,7 +14799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 110.49 0)
+			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14001,7 +14810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 110.49 0)
+			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14017,7 +14826,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR023")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -14025,7 +14834,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 76.2 0)
+		(at 135.89 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14034,30 +14843,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ca5b858-d53b-4d36-ba30-e670cb8df61b")
-		(property "Reference" "R20"
-			(at 147.828 74.676 0)
+		(property "Reference" "R6"
+			(at 133.858 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 147.828 77.216 0)
+		(property "Value" "1.5k"
+			(at 133.858 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 144.272 76.2 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.89 91.948 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14068,7 +14877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 76.2 0)
+			(at 135.89 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14079,7 +14888,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 76.2 0)
+			(at 135.89 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14090,7 +14899,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 146.05 76.2 0)
+			(at 135.89 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14101,7 +14910,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 146.05 76.2 0)
+			(at 135.89 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14112,7 +14921,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 146.05 76.2 0)
+			(at 135.89 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14122,8 +14931,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23186"
-			(at 146.05 76.2 0)
+		(property "LCSC Part" "C25867"
+			(at 135.89 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14142,7 +14951,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R20")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14150,7 +14959,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 132.08 0)
+		(at 149.86 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14158,31 +14967,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5f20ca7c-8fcd-4c66-8cd5-2188ed2436ab")
-		(property "Reference" "R19"
-			(at 179.07 130.81 0)
+		(uuid "5e47f699-f517-44f4-abe3-c75b0c4cdfb9")
+		(property "Reference" "R2"
+			(at 148.336 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 179.07 132.588 0)
+		(property "Value" "100k"
+			(at 149.606 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 176.022 132.08 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.86 65.278 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14193,7 +15000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 132.08 0)
+			(at 149.86 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14204,7 +15011,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 132.08 0)
+			(at 149.86 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14214,8 +15021,8 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 177.8 132.08 0)
+		(property "LCSC Part" "C25741"
+			(at 149.86 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14224,50 +15031,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "KLC_S3.3" ""
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C23186"
-			(at 177.8 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "124edf2f-ca66-4918-b956-c6d14d5bfc56")
 		)
 		(pin "1"
-			(uuid "ca472db9-a1ba-4692-ba39-b03a5de21e42")
+			(uuid "e84c6879-28cd-44a6-8ce2-1a649eab2e53")
+		)
+		(pin "2"
+			(uuid "156a9b30-e6b7-4d7e-b59a-c7f27a6e4656")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R19")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14285,7 +15059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "622da6c2-47a2-4ac4-9f10-146ae479bdb0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR09"
 			(at 74.93 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14346,7 +15120,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR014")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14487,7 +15261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67eea64d-bcc3-434f-89fd-b671e8480b81")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 60.198 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14595,7 +15369,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14613,7 +15387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ba96e28-4856-46e9-8a5f-2f6f5ca91ee9")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 67.31 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14674,7 +15448,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14692,7 +15466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dc66702-f3da-455b-b3a9-3103dcae1c12")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR018"
 			(at 246.38 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -14753,7 +15527,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR041")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -14771,7 +15545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ed8aa7e-ced0-47ab-b8aa-4d5781f84276")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR027"
 			(at 241.3 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14832,7 +15606,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR038")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14850,7 +15624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71932c3c-3a63-4515-9708-ae2011e082fe")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR033"
 			(at 152.4 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14911,7 +15685,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR028")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14929,7 +15703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73489e56-2bcd-4fb3-9555-0cc4ca897345")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR034"
 			(at 165.1 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14990,7 +15764,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR030")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15007,7 +15781,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74b20f96-9adc-4d82-ba4d-40c4d6fd9dea")
-		(property "Reference" "R5"
+		(property "Reference" "R20"
 			(at 36.068 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15095,7 +15869,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23186"
+		(property "LCSC Part" "C21190"
 			(at 31.75 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -15115,7 +15889,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R5")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -15133,7 +15907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77b485c1-5fda-451e-8181-315ae6172f82")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 99.9333 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15380,7 +16154,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -15397,7 +16171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77cbb203-30b0-4009-9d5c-5f07b1822fff")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 47.244 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15516,7 +16290,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15533,7 +16307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "781fea08-a3f5-4773-858c-81e3480e7d3e")
-		(property "Reference" "R1"
+		(property "Reference" "R19"
 			(at 27.178 154.432 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15621,7 +16395,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23186"
+		(property "LCSC Part" "C21190"
 			(at 22.86 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -15641,7 +16415,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R1")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -15658,7 +16432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7941f070-45e4-4651-9baa-61a5b16bd720")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR031"
 			(at 60.96 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -15718,7 +16492,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR09")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -15736,7 +16510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "796d11a0-ad78-40ae-81b2-d6f50ecd37c9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR048"
 			(at 139.7 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15796,7 +16570,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR026")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -15814,7 +16588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7edd8f8e-d6ca-467b-8db5-d4faa517a890")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 94.234 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15928,7 +16702,86 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "Q1")
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 19.05 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd24fe3-20fd-4b3d-bfdb-8c33552cebd8")
+		(property "Reference" "J1"
+			(at 20.32 47.6249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NRST"
+			(at 20.32 50.1649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 19.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 19.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f25f3ce4-8ceb-4afe-8571-925358ee5667")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15946,7 +16799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81a4f4a4-9bbd-44a4-b89e-04e877d4adfb")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR07"
 			(at 59.69 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -16007,7 +16860,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -16024,7 +16877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "833700cc-3165-482b-801b-b20e87450f5e")
-		(property "Reference" "R13"
+		(property "Reference" "R4"
 			(at 255.778 72.136 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16132,7 +16985,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R13")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16149,7 +17002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84b57e7d-8457-4c32-b3a2-e9a02ac62438")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 72.898 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16171,7 +17024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -16237,7 +17090,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C12530"
+		(property "LCSC Part" "C96446"
 			(at 72.39 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -16257,7 +17110,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -16274,7 +17127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "862eedd7-4e5f-4863-bbc1-90ced290e3f6")
-		(property "Reference" "R12"
+		(property "Reference" "R18"
 			(at 176.276 150.622 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16382,7 +17235,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R12")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -16399,7 +17252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "876bf534-f6ec-49ba-9f49-fdd629b607af")
-		(property "Reference" "C16"
+		(property "Reference" "C10"
 			(at 232.918 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16507,7 +17360,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C16")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -16592,7 +17445,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 53.34 78.74 0)
+		(at 45.72 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16602,7 +17455,7 @@
 		(dnp no)
 		(uuid "8c91202c-eef9-42a0-a163-dec198d2aa8e")
 		(property "Reference" "Y1"
-			(at 52.578 72.644 0)
+			(at 43.942 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16612,7 +17465,7 @@
 			)
 		)
 		(property "Value" "16Mhz"
-			(at 54.61 74.422 0)
+			(at 48.768 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16622,7 +17475,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 53.34 78.74 0)
+			(at 45.72 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16633,7 +17486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 78.74 0)
+			(at 45.72 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16644,7 +17497,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, 10pF"
-			(at 53.34 78.74 0)
+			(at 45.72 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16655,7 +17508,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 53.34 91.44 0)
+			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -16666,7 +17519,7 @@
 			)
 		)
 		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 53.34 93.98 0)
+			(at 45.72 87.63 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -16677,7 +17530,7 @@
 			)
 		)
 		(property "LCSC" "C13738"
-			(at 53.34 78.74 0)
+			(at 45.72 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16688,7 +17541,7 @@
 			)
 		)
 		(property "LCSC Part" "C13738"
-			(at 53.34 78.74 0)
+			(at 45.72 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16884,7 +17737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f0e18ee-b01f-45d3-b4fd-d58bd82a885d")
-		(property "Reference" "C1"
+		(property "Reference" "C12"
 			(at 19.558 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16992,7 +17845,85 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C1")
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 260.35 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92f6caef-e7aa-417c-8b4c-57d1fa18571f")
+		(property "Reference" "#PWR040"
+			(at 260.35 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 260.35 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 260.35 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ba7f8d6-6cd6-4cd4-bd9a-a9107df40e4a")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -17124,132 +18055,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS14")
-		(at 107.95 162.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9383a369-4e3f-4e6d-b2c5-81b0281c4c88")
-		(property "Reference" "D6"
-			(at 110.49 161.6074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS14"
-			(at 110.49 164.1474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 112.395 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 107.95 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 107.95 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 107.95 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 107.95 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 107.95 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2480"
-			(at 107.95 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d805129-91e5-4997-aa28-76efd213e328")
-		)
-		(pin "2"
-			(uuid "4012a67e-f82b-439c-a122-1ddf9bea7344")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyECADDownloader:H5VU10BB")
 		(at 146.05 97.79 90)
 		(unit 1)
@@ -17260,7 +18065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "947ab31b-fed9-4b63-a5c2-d3b4e91d6cfb")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 147.066 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17346,7 +18151,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -17364,7 +18169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95669db1-d754-4117-91e3-32c7aa7b1134")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR03"
 			(at 134.62 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17424,7 +18229,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR024")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -17432,7 +18237,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 161.29 0)
+		(at 69.85 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17441,9 +18246,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97eca5e0-fe2c-4bb8-95df-e4ae54a99a0b")
-		(property "Reference" "#PWR011"
-			(at 63.5 167.64 0)
+		(uuid "957b2afa-d86f-4895-b7f4-173f94042386")
+		(property "Reference" "#PWR030"
+			(at 69.85 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17454,7 +18259,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 166.37 0)
+			(at 69.85 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17465,7 +18270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 161.29 0)
+			(at 69.85 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17476,7 +18281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 161.29 0)
+			(at 69.85 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17487,7 +18292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 161.29 0)
+			(at 69.85 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17498,20 +18303,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab16ec3c-40f1-4c16-9276-65bfe318ea0d")
+			(uuid "4c21c6a4-d0a6-4899-b708-8c64c55c53cc")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR011")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDDA")
-		(at 260.35 133.35 0)
+		(lib_id "Device:C")
+		(at 81.28 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17519,31 +18324,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a506d99-18a6-4b31-8cb2-f9906e6ce637")
-		(property "Reference" "#PWR044"
-			(at 260.35 137.16 0)
-			(hide yes)
+		(uuid "97fef956-e962-494a-b59b-806878250118")
+		(property "Reference" "C22"
+			(at 81.788 181.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "VDDA"
-			(at 260.35 128.27 0)
+		(property "Value" "10u"
+			(at 82.042 185.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 260.35 133.35 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 82.2452 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17554,7 +18359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 133.35 0)
+			(at 81.28 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17564,8 +18369,52 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 260.35 133.35 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 81.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 81.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 81.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C96446"
+			(at 81.28 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17576,12 +18425,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a276cd88-3749-4113-8017-4e952af5ad52")
+			(uuid "fed56ff1-ba46-4503-bdcd-31a95e8a139f")
+		)
+		(pin "2"
+			(uuid "89c2c410-fe62-4767-8c94-69fc52173e14")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR044")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -17598,7 +18450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e2999de-98d0-4273-afe1-248681675bfa")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 169.418 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17706,7 +18558,85 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R11")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 264.16 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f3a70c4-7ae0-4b73-bdc0-9025e218f7ee")
+		(property "Reference" "#PWR021"
+			(at 264.16 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 264.16 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 264.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6edbf7c1-2f0b-462e-b6f2-3576c962467f")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17724,7 +18654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a196e7ea-f206-4bac-84bf-e6f622a03088")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR011"
 			(at 105.41 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17785,7 +18715,100 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR018")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 107.95 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a809e663-2d01-4fc8-8134-f612e677c648")
+		(property "Reference" "D5"
+			(at 110.49 161.6074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RB520S-30"
+			(at 110.49 164.1474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 107.95 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 107.95 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7502701"
+			(at 107.95 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2ebf463d-e22e-40bb-bbbc-b199e97b5ac4")
+		)
+		(pin "1"
+			(uuid "fc432e6c-bf58-4683-87af-c05d9cef0c1e")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -17802,7 +18825,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab2a79af-278c-4951-962e-e07073adc867")
-		(property "Reference" "R7"
+		(property "Reference" "R22"
 			(at 69.088 183.896 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17813,7 +18836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "6.8k"
 			(at 69.088 186.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17890,7 +18913,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22975"
+		(property "LCSC Part" "C23212"
 			(at 67.31 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -17910,7 +18933,86 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R7")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace14b41-02e8-4b11-9b5e-ea2d36e46cc9")
+		(property "Reference" "#PWR026"
+			(at 60.96 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c105095-1e01-4800-9786-071535c5ac27")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -17927,7 +19029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b423c094-4f8b-426d-bee0-b0271f9327d6")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 67.818 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18035,7 +19137,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18043,7 +19145,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 130.81 95.25 0)
+		(at 130.81 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18051,10 +19153,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b6637f85-bae7-4c6c-aace-d68347fad9f0")
-		(property "Reference" "#PWR022"
-			(at 130.81 99.06 0)
+		(property "Reference" "#PWR029"
+			(at 130.81 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18065,7 +19166,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 130.81 90.17 0)
+			(at 130.81 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18075,7 +19176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 95.25 0)
+			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18086,7 +19187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 95.25 0)
+			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18097,7 +19198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 130.81 95.25 0)
+			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18113,7 +19214,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR022")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -18130,7 +19231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8d8860a-f328-44e7-88df-c79aebfe4f7b")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 75.438 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18238,7 +19339,86 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C8")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 77.47 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0afd1a4-39aa-4f9a-958a-6c05081403f9")
+		(property "Reference" "J6"
+			(at 78.74 169.5449 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 78.74 172.0849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 77.47 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 77.47 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9dffc7e-738e-487d-b92c-9f1b61dcf4cd")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -18256,7 +19436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c302ca59-d691-4829-ad66-f2edbc358ba0")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 207.01 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -18316,7 +19496,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -18334,7 +19514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c389761f-338d-4a80-ac8f-c7a697435945")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 51.6733 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18454,7 +19634,106 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "U1")
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 184.15 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a80317-bbaf-45fc-94d6-99b3ed06bb70")
+		(property "Reference" "Q1"
+			(at 190.5 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 190.5 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 189.23 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 189.23 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 184.15 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20917"
+			(at 184.15 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6ab2cd82-2565-4365-b883-f17365202a8a")
+		)
+		(pin "1"
+			(uuid "d40f0a72-46e4-4c83-82d6-36adcb1e87a4")
+		)
+		(pin "2"
+			(uuid "95b59a58-18be-4580-a008-4240790f2717")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -18472,7 +19751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c55c23d9-b619-4271-8013-08488b25374e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR051"
 			(at 49.53 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -18533,7 +19812,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR05")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -18550,7 +19829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5dae888-fdcb-43ed-a41a-40aee46dc302")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG04"
 			(at 100.33 173.355 0)
 			(hide yes)
 			(show_name no)
@@ -18610,7 +19889,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -18618,7 +19897,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 73.66 0)
+		(at 19.05 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18628,8 +19907,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c70c8dc5-e3d4-41ee-a7ee-c17312821e17")
-		(property "Reference" "#PWR03"
-			(at 27.94 80.01 0)
+		(property "Reference" "#PWR024"
+			(at 19.05 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18640,7 +19919,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 78.74 0)
+			(at 19.05 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18651,7 +19930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 73.66 0)
+			(at 19.05 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18662,7 +19941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 73.66 0)
+			(at 19.05 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18673,7 +19952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 73.66 0)
+			(at 19.05 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18689,7 +19968,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR03")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18706,7 +19985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7656f10-0419-4c54-9a3b-d18a5318600d")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 254 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18812,7 +20091,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R18")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -18899,7 +20178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 96.52 0)
+		(at 45.72 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18909,8 +20188,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9e40c7d-9e08-46fe-b849-fd8109280167")
-		(property "Reference" "#PWR08"
-			(at 53.34 102.87 0)
+		(property "Reference" "#PWR025"
+			(at 45.72 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18921,7 +20200,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 101.6 0)
+			(at 45.72 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18932,7 +20211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 96.52 0)
+			(at 45.72 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18943,7 +20222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 96.52 0)
+			(at 45.72 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18954,7 +20233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 96.52 0)
+			(at 45.72 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18970,7 +20249,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR08")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -18987,7 +20266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb83f052-ee54-49fc-8261-7dd29f649a50")
-		(property "Reference" "C14"
+		(property "Reference" "C21"
 			(at 140.208 179.832 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19095,7 +20374,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C14")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -19167,7 +20446,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C399939"
+		(property "LCSC" "C2894897"
 			(at 189.23 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -19271,7 +20550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cddbfd2f-b6a4-43a2-a915-2a27f5fad196")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 153.416 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19357,7 +20636,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -19374,7 +20653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1619dd0-bf1c-4991-ba08-dbcdb912ba04")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 162.052 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19482,84 +20761,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 186.69 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d18caa75-b8d5-4f21-a2f5-2b7b94332e49")
-		(property "Reference" "#PWR033"
-			(at 186.69 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD"
-			(at 186.69 121.412 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 186.69 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c1b654e-c3eb-47aa-b3ef-586a60cce7d6")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR033")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -19577,7 +20779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5ebf35e-a3f8-4931-8204-b7d805a6ec43")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR012"
 			(at 113.03 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19638,7 +20840,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR020")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -19656,7 +20858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7aba082-c35a-417e-b6c1-d4fd1fd1d28a")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 189.23 131.7624 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19764,7 +20966,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "D7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -19782,7 +20984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dba25790-18ff-431c-8ee7-446396610329")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR052"
 			(at 121.92 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -19843,139 +21045,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 184.15 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfa9fa99-eda5-4c17-9494-8e0fef57d7e7")
-		(property "Reference" "Q2"
-			(at 190.5 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 190.5 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 189.23 145.415 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 189.23 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 184.15 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 184.15 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 184.15 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 184.15 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C8545"
-			(at 184.15 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "17e33e25-3373-4554-93ce-15dcd8175516")
-		)
-		(pin "2"
-			(uuid "f5d28a52-64bf-42e5-9dc3-e67cba044ab6")
-		)
-		(pin "1"
-			(uuid "83a62905-90db-4aa0-aa84-38af7aa2a227")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "Q2")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -19992,7 +21062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0422dfc-eac6-4958-b68e-1cf6ad75661f")
-		(property "Reference" "R3"
+		(property "Reference" "R13"
 			(at 35.052 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20098,7 +21168,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R3")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -20115,7 +21185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0932387-125f-4e83-9f03-62b42c14f2a8")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 52.578 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20223,7 +21293,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -20241,7 +21311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3af2def-da0d-4ccc-b148-d8a9d9c1eda5")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR017"
 			(at 232.41 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20302,15 +21372,15 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR037")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 46.99 85.09 0)
+		(lib_id "power:VDD")
+		(at 260.35 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20318,31 +21388,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e6e13423-92c8-48ef-a881-cfb2cff3f281")
-		(property "Reference" "C2"
-			(at 40.386 83.82 0)
+		(fields_autoplaced yes)
+		(uuid "e5a6f9bb-ac3f-41b7-985d-d71da48e107e")
+		(property "Reference" "#PWR028"
+			(at 260.35 107.95 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10p"
-			(at 40.386 86.36 0)
+		(property "Value" "VDD"
+			(at 260.35 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 47.9552 88.9 0)
+		(property "Footprint" ""
+			(at 260.35 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20353,7 +21423,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 85.09 0)
+			(at 260.35 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 260.35 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44275e2a-6819-4e8c-b7ac-dae4dc2727c9")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 39.37 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6e13423-92c8-48ef-a881-cfb2cff3f281")
+		(property "Reference" "C13"
+			(at 36.322 75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10p"
+			(at 35.306 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 40.3352 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20364,7 +21512,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 46.99 85.09 0)
+			(at 39.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20375,7 +21523,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 46.99 85.09 0)
+			(at 39.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20386,7 +21534,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 46.99 85.09 0)
+			(at 39.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20397,7 +21545,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 46.99 85.09 0)
+			(at 39.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20408,7 +21556,7 @@
 			)
 		)
 		(property "LCSC Part" "C32949"
-			(at 46.99 85.09 0)
+			(at 39.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20427,7 +21575,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C2")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -20444,7 +21592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea408a85-8650-4ab0-9782-472ddcf7e318")
-		(property "Reference" "C17"
+		(property "Reference" "C15"
 			(at 241.808 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20552,7 +21700,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C17")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -20569,7 +21717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaab58a8-52a5-48a7-be95-f1201959b63a")
-		(property "Reference" "R14"
+		(property "Reference" "R5"
 			(at 248.158 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20675,7 +21823,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R14")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -20693,7 +21841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecd7aa1b-9b62-41ff-94f4-23d47e3c431b")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR045"
 			(at 241.3 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -20754,7 +21902,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR040")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -20772,7 +21920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edbd6636-6135-4906-a587-42d5163f5303")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 124.46 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20783,7 +21931,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_Socket"
+		(property "Value" "BAT-"
 			(at 124.46 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20794,7 +21942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 123.19 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -20833,7 +21981,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -20851,7 +21999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff2cc7f-05e6-4147-9a63-100d4c298f40")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR041"
 			(at 96.52 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -20912,7 +22060,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR017")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -20929,7 +22077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1cf2049-f4d1-4986-a304-82ba8ced5d8e")
-		(property "Reference" "C20"
+		(property "Reference" "C11"
 			(at 246.888 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21037,7 +22185,84 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "C20")
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 186.69 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f314e2cf-4343-49d2-90a5-7fa639cb7003")
+		(property "Reference" "#PWR038"
+			(at 186.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 186.69 121.666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 186.69 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c7baecb-c05e-4fd2-91f8-c98564d37b2e")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -21055,7 +22280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5006cc2-c2c6-4099-aca1-c4d1ffa47089")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR016"
 			(at 223.52 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21116,7 +22341,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "#PWR036")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -21134,7 +22359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5fc1b62-15f5-48ab-ba6e-bfc7f1b18fe5")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 121.92 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21244,15 +22469,15 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 138.43 100.33 0)
+		(lib_id "Device:C")
+		(at 57.15 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21260,9 +22485,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f7423807-b452-4171-9882-9e63359db264")
-		(property "Reference" "J1"
-			(at 139.7 100.3299 0)
+		(uuid "f7359a0e-e379-40d3-be05-c4ff7c730490")
+		(property "Reference" "C16"
+			(at 53.086 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21272,8 +22497,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 111.252 104.902 0)
+		(property "Value" "5.6p"
+			(at 52.324 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21283,8 +22508,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 138.43 100.33 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 58.1152 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21295,7 +22520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 100.33 0)
+			(at 57.15 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21305,19 +22530,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 138.43 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 138.43 100.33 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21328,7 +22542,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 138.43 100.33 0)
+			(at 57.15 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21339,7 +22553,132 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 138.43 100.33 0)
+			(at 57.15 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C30274"
+			(at 57.15 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7fa3a40-86a4-4d46-b25c-ecb14b0dbb72")
+		)
+		(pin "2"
+			(uuid "051fbffb-a712-446d-b5f3-3e2644150546")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 138.43 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7423807-b452-4171-9882-9e63359db264")
+		(property "Reference" "J4"
+			(at 139.7 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 111.252 117.602 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 138.43 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 138.43 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 138.43 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21364,7 +22703,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -21588,7 +22927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdd00f3d-787f-4fb1-a503-aaf7c65f730d")
-		(property "Reference" "R4"
+		(property "Reference" "R14"
 			(at 35.052 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21694,7 +23033,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R4")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -21711,7 +23050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fee1968b-d599-4235-a442-c3f047cd845c")
-		(property "Reference" "R2"
+		(property "Reference" "R12"
 			(at 35.052 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21721,7 +23060,7 @@
 				)
 			)
 		)
-		(property "Value" "130"
+		(property "Value" "150"
 			(at 36.068 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21817,7 +23156,7 @@
 		(instances
 			(project "tamagotchi"
 				(path "/85b53d72-2691-47c2-affa-d5e4c52e9a82"
-					(reference "R2")
+					(reference "R12")
 					(unit 1)
 				)
 			)

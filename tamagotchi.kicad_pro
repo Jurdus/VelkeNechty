@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -81,7 +81,16 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|174155000|53750000|48cddabf-a642-4222-b8a7-8ecf10f8d6aa|829aa600-241d-4d56-8d88-3f208a910ff4",
+          ""
+        ],
+        [
+          "hole_clearance|174155000|53750000|a9794ae5-13cf-414c-b11b-f77da04f2af9|829aa600-241d-4d56-8d88-3f208a910ff4",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -151,22 +160,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.127,
+        "min_connection": 0.127,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.01,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.6,
+        "min_silk_clearance": 0.15,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -514,7 +523,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "easyECADDownloader"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -756,7 +767,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -881,7 +892,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Reference"
+      "sort_field": "LCSC Part"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -924,7 +935,7 @@
         "uuid": "85b53d72-2691-47c2-affa-d5e4c52e9a82"
       }
     ],
-    "used_designators": "U1-5,C1-21,#PWR1-50,P1,SW1-4,FB1,#FLG1-4,R1-21,Y1,J1-4,D1-7,Q1-3,BUZZER1,LED1,FPC1,BZ1",
+    "used_designators": "U1-5,C1-23,#PWR1-52,P1,SW1-4,FB1,#FLG1-4,R1-22,Y1-2,J1-7,D1-7,Q1-3,BUZZER1,LED1,FPC1,BZ1",
     "variants": []
   },
   "sheets": [
