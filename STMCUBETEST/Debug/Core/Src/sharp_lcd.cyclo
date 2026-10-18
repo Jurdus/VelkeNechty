@@ -1,0 +1,11 @@
+../Core/Src/sharp_lcd.c:36:13:delay_cycles	2
+../Core/Src/sharp_lcd.c:41:13:delay_us	1
+../Core/Src/sharp_lcd.c:45:13:send_byte	3
+../Core/Src/sharp_lcd.c:58:13:clear_memory	1
+../Core/Src/sharp_lcd.c:69:6:lcd_init	2
+../Core/Src/sharp_lcd.c:94:6:lcd_task	2
+../Core/Src/sharp_lcd.c:103:6:lcd_clear	3
+../Core/Src/sharp_lcd.c:109:6:lcd_set_pixel	6
+../Core/Src/sharp_lcd.c:115:6:lcd_draw_circle	3
+../Core/Src/sharp_lcd.c:136:6:lcd_fill_circle	4
+../Core/Src/sharp_lcd.c:143:6:lcd_flush	4
