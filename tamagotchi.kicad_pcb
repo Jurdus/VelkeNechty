@@ -9800,16 +9800,15 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:TSOT-23-6"
+	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "8e0e0097-2a50-4218-b2ed-d31c873aa052")
 		(at 176.21 47.0595 90)
-		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA)")
-		(tags "TSOT TO_SOT_SMD")
+		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
+		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U5"
 			(at 0 -2.4 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "469d6ae7-2bef-4716-bd61-78093614f921")
 			(effects
 				(font
@@ -9821,7 +9820,6 @@
 		(property "Value" "TP4057-42-SOT26-R"
 			(at 0 2.4 90)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "c3bee09b-f5b4-488e-ac80-a8d449146bb0")
 			(effects
 				(font
@@ -9869,7 +9867,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad928aff-4cb3-45f8-b982-5b6e964e0734")
+			(uuid "a19889ea-6bc0-4c09-a2a9-049a6c8570fe")
 			(effects
 				(font
 					(size 1 1)
@@ -9882,7 +9880,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "806a1b28-f5d8-477e-920e-9775628eb1c3")
+			(uuid "73ae10c2-f02a-4ff5-9c0a-e0f54ee6e2bd")
 			(effects
 				(font
 					(size 1 1)
@@ -9895,7 +9893,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e96d455-08cb-46db-aca9-ff8423c35a75")
+			(uuid "24330079-4d58-430f-944c-3ce1b1d92296")
 			(effects
 				(font
 					(size 1 1)
@@ -9908,7 +9906,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f232473-a7d4-49c5-be77-032bb91256e6")
+			(uuid "40b74430-3d79-4de7-bd3b-382f2f196bc1")
 			(effects
 				(font
 					(size 1 1)
@@ -10133,7 +10131,7 @@
 			(uuid "acfe8dab-7434-43d8-8c32-ae0a2ded772e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "a57196da-bbb9-4a69-9837-fd7265d496d1")
 			(effects
@@ -10204,7 +10202,7 @@
 			(uuid "98516e2e-cda4-45ba-9ecc-a3d676c6b8ea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18129,7 +18127,7 @@
 	)
 	(gr_rect
 		(start 148 39.39)
-		(end 181.102 72.39)
+		(end 181.1 72.39)
 		(stroke
 			(width 0.2)
 			(type default)
