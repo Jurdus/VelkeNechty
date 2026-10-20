@@ -49,6 +49,8 @@ extern "C" {
 
 /* USER CODE END EM */
 
+void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -57,6 +59,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define BUT1_Pin GPIO_PIN_0
+#define BUT1_GPIO_Port GPIOA
+#define BUT2_Pin GPIO_PIN_1
+#define BUT2_GPIO_Port GPIOA
+#define BUT3_Pin GPIO_PIN_2
+#define BUT3_GPIO_Port GPIOA
 #define DISP_EXTMODE_Pin GPIO_PIN_4
 #define DISP_EXTMODE_GPIO_Port GPIOA
 #define DISP_SCLK_Pin GPIO_PIN_5
@@ -69,12 +77,6 @@ void Error_Handler(void);
 #define DISP_EXTCOMIN_GPIO_Port GPIOB
 #define DISP_DISP_Pin GPIO_PIN_2
 #define DISP_DISP_GPIO_Port GPIOB
-#define LED_RED_Pin GPIO_PIN_8
-#define LED_RED_GPIO_Port GPIOA
-#define LED_GREEN_Pin GPIO_PIN_9
-#define LED_GREEN_GPIO_Port GPIOA
-#define LED_BLUE_Pin GPIO_PIN_10
-#define LED_BLUE_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
